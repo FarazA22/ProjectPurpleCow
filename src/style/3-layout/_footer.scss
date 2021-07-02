@@ -1,0 +1,12 @@
+.footer {
+  grid-area: footer;
+  color: $secondary-color;
+  background-color: $primary-color;
+}
+
+.footerPadding {
+  font-size: 1.5rem;
+  width: 80vw;
+  margin: auto;
+  padding-top: 20px;
+}

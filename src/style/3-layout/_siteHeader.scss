@@ -1,0 +1,9 @@
+.header {
+  grid-area: header;
+  font-family: $bubblegum-sans;
+  font-size: 3em;
+  color: $font-white;
+  background-color: $primary-color;
+  text-align: center;
+  padding-top: 2rem;
+}
