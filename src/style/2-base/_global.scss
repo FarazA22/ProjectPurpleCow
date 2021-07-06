@@ -26,8 +26,48 @@ html {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  margin: 1rem 0rem 2rem 0rem;
+}
+
+hr {
+  border: 1px solid $primary-color;
+  margin: 1rem 2rem 1rem 0rem;
+}
+
+label {
+  color: $font;
+  display: block;
+  margin: 0rem 0rem 0rem 0rem;
+  width: 300px;
+}
+
+.primaryButton {
+  padding: 8px 16px;
+  margin-top: 12px;
+  margin-right: 12px;
+  border-radius: 4px;
+  border: none;
+  background-color: $primary-color;
+  color: $font-white;
+  font-weight: bold;
+}
+
+.secondaryButton {
+  padding: 8px 16px;
+  font-weight: bold;
+  margin-top: 12px;
+  margin-right: 12px;
+  background-color: $transparent-primary-color;
+  border: none;
   text-decoration: underline;
-  text-align: center;
-  padding-top: 2rem;
+}
+
+.inputField {
+  margin: 0px 0px 16px 0px;
+  padding: 4px;
+  background-color: transparent;
+  border-style: none;
+  width: 200px;
+  border-bottom: 2px solid $primary-color;
 }

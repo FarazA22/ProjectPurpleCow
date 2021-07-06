@@ -1,0 +1,14 @@
+.result {
+  div {
+    display: block;
+  }
+  div:nth-child(odd) {
+    font-size: 1.2rem;
+    margin-bottom: 4px;
+  }
+  div:nth-child(even) {
+    margin-bottom: 1rem;
+    font-size: 1.7rem;
+    margin-left: 40px;
+  }
+}

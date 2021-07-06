@@ -3,16 +3,14 @@ import ReactDOM from "react-dom";
 import "../style/main.scss";
 import Footer from "./Components/Footer";
 import Sidebar from "./Components/Sidebar";
+import Main from "./Components/Main";
 
 const App = () => {
   return (
     <div className="gridContainer">
       <div className="header">Project Purple Cow</div>
       <Sidebar />
-      <div className="main">
-        <h1>yes!!</h1>
-        <div>candy!</div>
-      </div>
+      <Main />
       <Footer />
     </div>
   );
